@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		3FC51656235229F900A71FD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC51655235229F900A71FD9 /* AppDelegate.swift */; };
-		3FC51658235229F900A71FD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC51657235229F900A71FD9 /* ViewController.swift */; };
+		3FC51658235229F900A71FD9 /* AddNewArtworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC51657235229F900A71FD9 /* AddNewArtworkViewController.swift */; };
 		3FC5165B235229F900A71FD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC51659235229F900A71FD9 /* Main.storyboard */; };
 		3FC5165D235229FB00A71FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC5165C235229FB00A71FD9 /* Assets.xcassets */; };
 		3FC51660235229FB00A71FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC5165E235229FB00A71FD9 /* LaunchScreen.storyboard */; };
+		3FC5166823522B2900A71FD9 /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5166723522B2900A71FD9 /* Museum.swift */; };
+		3FC5166A2352339800A71FD9 /* ArtistsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC516692352339800A71FD9 /* ArtistsTableViewController.swift */; };
+		3FC5166C235233AA00A71FD9 /* ArtworksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5166B235233AA00A71FD9 /* ArtworksTableViewController.swift */; };
+		3FC516732352353700A71FD9 /* ArtworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC516722352353700A71FD9 /* ArtworkViewController.swift */; };
+		3FC51675235236A400A71FD9 /* AddNewArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC51674235236A400A71FD9 /* AddNewArtistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3FC51652235229F900A71FD9 /* Very Fine Arts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Very Fine Arts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC51655235229F900A71FD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FC51657235229F900A71FD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FC51657235229F900A71FD9 /* AddNewArtworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewArtworkViewController.swift; sourceTree = "<group>"; };
 		3FC5165A235229F900A71FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FC5165C235229FB00A71FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC5165F235229FB00A71FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC51661235229FB00A71FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC5166723522B2900A71FD9 /* Museum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
+		3FC516692352339800A71FD9 /* ArtistsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsTableViewController.swift; sourceTree = "<group>"; };
+		3FC5166B235233AA00A71FD9 /* ArtworksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworksTableViewController.swift; sourceTree = "<group>"; };
+		3FC516722352353700A71FD9 /* ArtworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViewController.swift; sourceTree = "<group>"; };
+		3FC51674235236A400A71FD9 /* AddNewArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewArtistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +65,26 @@
 			isa = PBXGroup;
 			children = (
 				3FC51655235229F900A71FD9 /* AppDelegate.swift */,
-				3FC51657235229F900A71FD9 /* ViewController.swift */,
+				3FC51671235233E300A71FD9 /* View Controllers */,
 				3FC51659235229F900A71FD9 /* Main.storyboard */,
 				3FC5165C235229FB00A71FD9 /* Assets.xcassets */,
 				3FC5165E235229FB00A71FD9 /* LaunchScreen.storyboard */,
 				3FC51661235229FB00A71FD9 /* Info.plist */,
+				3FC5166723522B2900A71FD9 /* Museum.swift */,
 			);
 			path = "Very Fine Arts";
+			sourceTree = "<group>";
+		};
+		3FC51671235233E300A71FD9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FC51657235229F900A71FD9 /* AddNewArtworkViewController.swift */,
+				3FC516692352339800A71FD9 /* ArtistsTableViewController.swift */,
+				3FC5166B235233AA00A71FD9 /* ArtworksTableViewController.swift */,
+				3FC516722352353700A71FD9 /* ArtworkViewController.swift */,
+				3FC51674235236A400A71FD9 /* AddNewArtistViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC51658235229F900A71FD9 /* ViewController.swift in Sources */,
+				3FC5166A2352339800A71FD9 /* ArtistsTableViewController.swift in Sources */,
+				3FC51658235229F900A71FD9 /* AddNewArtworkViewController.swift in Sources */,
 				3FC51656235229F900A71FD9 /* AppDelegate.swift in Sources */,
+				3FC51675235236A400A71FD9 /* AddNewArtistViewController.swift in Sources */,
+				3FC5166823522B2900A71FD9 /* Museum.swift in Sources */,
+				3FC5166C235233AA00A71FD9 /* ArtworksTableViewController.swift in Sources */,
+				3FC516732352353700A71FD9 /* ArtworkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
